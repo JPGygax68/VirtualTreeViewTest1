@@ -5,10 +5,14 @@ unit MainForm;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, VirtualTrees;
 
 type
+
+  { TForm1 }
+
   TForm1 = class(TForm)
+    FilesystemTree: TVirtualStringTree;
   private
 
   public
